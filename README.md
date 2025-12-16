@@ -68,10 +68,7 @@ Flood risk assessment
 
 **Daniel Galdamez**  
 CIE 532 – Final Project  
-[LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
 
----
 
-*Built with ❤️ for flood risk analysis in urban rivers*
 
 
