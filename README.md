@@ -56,11 +56,6 @@ Flood risk assessment
 - **USGS 06711565**: [waterdata.usgs.gov](https://waterdata.usgs.gov/monitoring-location/06711565/)
 - **GHCND:US1COAR0214**: [NOAA NCEI](https://www.ncei.noaa.gov/access/search/data-search/global-hourly)
 
----
-
-## 📊 Figures Preview
-
-![Conditional Flood Probability](figures/flood_model_figures.png)
 
 ---
 
