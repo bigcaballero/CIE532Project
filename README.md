@@ -47,9 +47,7 @@ Flood risk assessment
 - **Introduction**: South Platte flood history + conditional modeling need
 - **Methods**: Logistic regression w/ interaction term
 - **Results**: Antecedent discharge explains ~95% of predictive power
-- **Discussion**: Implications for regulated urban rivers
-
-**[View paper sections in comments of `flood_model.py`]** 
+- **Discussion**: Implications for regulated urban rivers 
 
 ---
 
