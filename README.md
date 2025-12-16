@@ -21,5 +21,59 @@ Flood risk assessment
 
 ---
 
-## 🚀 Quick Start
+
+---
+
+## 🛠️ How It Works
+
+1. **Data**: USGS 06711565 discharge + GHCND:US1COAR0214 precip (2009-2025)
+2. **Flood definition**: ≥99th percentile discharge (690 cfs)
+3. **Predictors**: Antecedent discharge, 1/2/3-day rain, season, interaction
+4. **Model**: Logistic regression (`class_weight='balanced'`)
+5. **Split**: 2009-2018 train | 2019-2025 test
+
+**Generated outputs:**
+- Figure 1: Conditional probability curves
+- Figure 2: ROC curve (AUC 0.995)
+- Figure 3: Reliability diagram
+- Coefficients table
+
+---
+
+## 📝 Academic Paper
+
+**Full analysis for "Conditional flood risk assessment using daily rainfall and river discharge"**
+
+- **Introduction**: South Platte flood history + conditional modeling need
+- **Methods**: Logistic regression w/ interaction term
+- **Results**: Antecedent discharge explains ~95% of predictive power
+- **Discussion**: Implications for regulated urban rivers
+
+**[View paper sections in comments of `flood_model.py`]** 
+
+---
+
+## 🔗 Data Sources
+
+- **USGS 06711565**: [waterdata.usgs.gov](https://waterdata.usgs.gov/monitoring-location/06711565/)
+- **GHCND:US1COAR0214**: [NOAA NCEI](https://www.ncei.noaa.gov/access/search/data-search/global-hourly)
+
+---
+
+## 📊 Figures Preview
+
+![Conditional Flood Probability](figures/flood_model_figures.png)
+
+---
+
+## 👨‍🎓 Author
+
+**Daniel Galdamez**  
+CIE 532 – Final Project  
+[LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+
+---
+
+*Built with ❤️ for flood risk analysis in urban rivers*
+
 
